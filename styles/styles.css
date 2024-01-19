@@ -1,0 +1,11 @@
+body {
+    background-color: darkgrey;
+
+}
+
+a {
+    padding: 10px;
+    color:black;
+    font-size: 1.2em;
+    font-style: 'veranda';
+}
