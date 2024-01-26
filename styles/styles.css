@@ -3,9 +3,13 @@ body {
 
 }
 
-a {
+.navlink {
     padding: 10px;
     color:black;
     font-size: 1.2em;
     font-style: 'veranda';
 }
+img {
+    width: 300px;
+}
+
