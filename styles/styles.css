@@ -2,6 +2,10 @@ body {
     background-color: darkgrey;
 
 }
+nav {
+    display: flex;
+    justify-content: center;
+}
 
 .navlink {
     padding: 10px;
@@ -11,8 +15,10 @@ body {
     text-decoration: none;
 }
 
-a:hover {color: grey;
-    background-color: white;}
+a:hover {
+    color: grey;
+    background-color: white;
+}
 
 img {
     width: 300px;
