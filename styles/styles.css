@@ -10,7 +10,10 @@ body {
     font-style: 'veranda';
     text-decoration: none;
 }
-a:hover{color: grey}
+
+a:hover {color: grey;
+    background-color: white;}
+
 img {
     width: 300px;
 }
