@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins&display=swap');
+
+body{
+    background-color: #6A687A;
+    margin: 1em;
+    padding:1em;
+}
+.all{
+    max-width: 30%;
+    margin: 0 auto;
+
+
+}
+.title{
+    padding-top: 2em;
+    color:whitesmoke;
+    font-family: 'DM+Serif+Display';
+    margin:0 auto;
+    font-size: 4em;
+    text-align: center;
+
+}
+.small_quote{
+    font-family: 'poppins';
+    margin:0 auto;
+    font-size: 1em;
+    color:whitesmoke;
+    padding: 1em;
+    text-align:center;
+
+}
+.list{
+    font-family: 'poppins';
+    margin:0 auto;
+    font-size: 1.5em;
+    color:black;
+    padding:1em;
+    text-align: left;
+
+}
+#image_of_president_nelson{
+    padding-top:2em;
+    width: 80%;
+    display:block;
+    margin:0 auto;
+}
+.quote{
+    padding-top: 1em;
+    color:whitesmoke;
+    font-family: 'DM+Serif+Display';
+    margin:0 auto;
+    font-size: 2em;
+    text-align: center;
+
+}
+#quote_tag{
+    font-family: 'poppins';
+    margin:0 auto;
+    font-size: 0.75em;
+    color:black;
+    padding: 1em;
+    text-align:center;
+}
