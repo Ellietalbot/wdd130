@@ -11,21 +11,37 @@ body {
     max-width: 1600px;
     margin: 0 auto;
 }
+
 nav {
+    padding-top: 0em;
+    padding-left: 2em;
+    padding-right: 2em;
     display: flex;
     justify-content: center;
 }
 
 .nav_link {
     font-family: 'poppins';
-    padding: 5em;
-    padding-bottom: 0;
+    padding: 3em;
+    padding-bottom: 1em;
+    padding-top: 1em;
     color:white;
     font-size: 1.2em;
     font-style: 'poppins';
     text-decoration: none;
     text-align: center;
 }
+#title{
+    margin:0;
+    
+}
+p{
+    padding-top:2em;
+    width:40%;
+    margin:0 auto;
+    line-height: 1.5em;
+}
+
 main {
     background-color: white;
     font-family: 'poppins';
@@ -39,8 +55,9 @@ a:hover {
 
 img {
     width: 40%;
-    display:block;
     margin: 0 auto;
+    border-radius: 50%;
+
 }
 h1{
     text-align: center;
@@ -49,14 +66,14 @@ h1{
 }
 .footer{
     padding: 1em;
-    color:white;
+    color:black;
     font-family: 'poppins';
     text-align: center;
+    background-color: lightslategray;
 
 
 }
 footer a{
     font-family: 'poppins';
-    color:white;
-
+    color:black;
 }
