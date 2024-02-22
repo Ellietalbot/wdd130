@@ -157,7 +157,7 @@ nav{
     grid-row:2/3;
 }
 #background{
-    grid-column: 1-11;
+    grid-column: 1/11;
     grid-row:4/9;
 }
 .mountains{
@@ -171,7 +171,7 @@ nav{
     box-shadow: 5px 5px 10px #6f7364;
 }
 .home_grid{
-    display: gird;
+    display: grid;
     grid-template-columns: repeat(10, 1fr);
 }
 .card-img:hover{
