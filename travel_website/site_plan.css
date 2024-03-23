@@ -6,10 +6,10 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #fceef5   ;
-  --secondary-color: #23aae1 ;
-  --accent1-color: #F52892;
-  --accent2-color: #262262;
+  --primary-color: white   ;
+  --secondary-color: whitesmoke ;
+  --accent1-color: #5271ff;
+  --accent2-color: #3d1dff;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Sora";
