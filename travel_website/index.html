@@ -27,13 +27,14 @@
         <div id = 'top'>
             <div class="row">
                 <div class="column">
-                <img src="images/arizona_home.png">
-                <img src="images/aspen_home.png">
-                <img src="images/china_home.png">
-                <img src="images/fiji_home.png">
-                <img src="images/germany_home.png">
+                <img class = 'river_img' src="images/arizona_home.png">
+                <img class = 'river_img' src="images/aspen_home.png">
+                <img class = 'river_img' src="images/china_home.png">
+                <img class = 'river_img' src="images/fiji_home.png">
+                <img src="images/washington_home.png">
                 <img src="images/greece_home.png">
-                <img src="images/scotland_home.png">
+                <img class = 'river_img' src="images/germany_home.png">
+
                 </div>
                 <div class="column">
                 <img src="images/tokyo_home.png">
@@ -42,6 +43,7 @@
                 <img src="images/china_home.png">
                 <img src="images/germany_home.png">
                 <img src="images/scotland_home.png">
+                <img src="images/fiji_home.png">
                 </div>
                 <div class="column">
                 <img src="images/aspen_home.png">
@@ -51,15 +53,9 @@
                 <img src="images/tokyo_home.png">
                 <img src="images/arizona_home.png">
                 <img src="images/germany_home.png">
+                
                 </div>
-                <div class="column">
-                <img src="images/scotland_home.png">
-                <img src="images/greece_home.png">
-                <img src="images/aspen_home.png">
-                <img src="images/germany_home.png">
-                <img src="images/washington_home.png">
-                <img src="images/fiji_home.png">
-                </div>
+
             </div>
         
             <div id = 'background_box'></div>
@@ -71,35 +67,45 @@
                     Here we make it easy for you to find adventures that are a perfect fit for you! With trips organized by time, cost, and activity level, you can find the perfect weekend getaway or an adventure you will remember forever. We want to make it easy for you to say “cya” to the cares of everyday life and step into a world of wonders!
                 </p>
             </div>
+            <div class = 'bottom'></div>
         </div>
-        <div class = 'sample_card'>
-            <div id = 'sample_card_back'></div>
-            <div class = 'stats_icons'>
-                <img src = 'images/time.png'>
-                <img src = 'images/cost.png'>
-                <img src = 'images/lvl.png'>
+            <div class = 'lower_content'>
+                <div class = sample_card>
+                    <div class = 'card'>
+                        <div id = 'red'></div>
+                        <img id = 'time_icon' src = 'images/time_icon.png'>
+                        <p id = 'time_amount'>time ammount</p>
+                        <img id = 'cost_icon' src = 'images/cost_icon.png'>
+                        <p id = 'cost_amount'> cost ammount</p>
+                        <img id = 'lvl_icon' src = 'images/lvl_icon.png'>
+                        <p id ='activity_amount'> activty level</p>
+                        <div id = 'trip_info'>
+                            <p>
+                                Here you'd find all the information you need to get a quick preview of any trip. Including activties, ideas, and tips to help you get an idea of what any trip would look like.
+                            </p>
+                        </div>
+                        <img  class = 'arch_img' src = 'images/Arch.png'>
+                    </div>
+
+                </div>
+                <div class ='how_to'>
+
+                    <h1>How do I use this?</h1>
+                    <p>These cards make it easy to choose a trip, that best fits your needs! Check the time stat for an idea of how long each trip will take, from weekend getaways to long adventures. Check the cost stat for adventures that are low cost or to help gauge how much each trip will cost. Check the activity level to see if this is something that will keep you moving or let you sit back and relax. Finally check out the preview, for a general idea of what each trip would look like!</p>
+                    
+                </div>
             </div>
-            <div id = 'trip_info'>
-                <p>
-                    Here you'd find all the information you need to get a quick preview of any trip. Including activties, ideas, and tips to help you get an idea of what any trip would look like.
-                </p>
-            </div>
-            <img src = 'images/Arch.jpg'>
-        </div>
-        <div id ='how_to'>
-            <h1>How do I use this?</h1>
-            <p>These cards make it easy to choose a trip, that best fits your needs! Check the time stat for an idea of how long each trip will take, from weekend getaways to long adventures. Check the cost stat for adventures that are low cost or to help gauge how much each trip will cost. Check the activity level to see if this is something that will keep you moving or let you sit back and relax. Finally check out the preview, for a general idea of what each trip would look like!</p>
-        </div>
+
         <footer>
             <p>CYA &copy; 2024 - Ellie Talbot</p>
-            <p><a href="siteplan.html">Site Plan</a></p>
-            <p><a href="contactus.html">Contact Us</a></p>
+            <a href="siteplan.html">Site Plan</a>
+            <a href="contactus.html">Contact Us</a>
             <div class = 'social'>
                 <a href = 'https://facebook.com' target = '_blank'>
                     <img class = 'icon' src="images/facebook-logo-black-2019.png" alt="fb icon">
                 </a>
                 <a href='https://twitter.com' target = '_blank'>
-                    <img class = 'icon' src="images/xlogo.png" alt="x icon">
+                    <img id = 'x_icon' src="images/xlogo.png" alt="x icon">
                 </a>
                 <a href='https://instagram.com' target = '_blank'>
                     <img class = 'icon' src="images/instagram.png" alt="instagram icon">
