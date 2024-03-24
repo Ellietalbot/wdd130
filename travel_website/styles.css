@@ -12,7 +12,7 @@ display: grid;
 grid-template-columns: 1fr;
 }
 #splash.fade{
-  opacity: 0;
+  display: none;
 }
 .splash_img{
   width: 100%;
